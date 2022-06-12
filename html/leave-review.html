@@ -8,6 +8,7 @@
   <meta name="author" content="">
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link href="../css/index.css" rel="stylesheet">
+  <link href="../css/leave-review.css" rel="stylesheet">
   <link rel="apple-touch-icon" sizes="180x180" href="http://localhost/vozi-me-hci/images/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="http://localhost/vozi-me-hci/images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="http://localhost/vozi-me-hci/images/favicon-16x16.png">
@@ -50,24 +51,31 @@
       </div>
     </div>
   </header>
-  <main>
-    <div class="bg-yellow bg-gradient">
-    <div class="row">
-        <div class="col">
-          <img style="max-width: 70%" class="rounded mx-auto d-block img-fluid rounded" alt="Responsive map" src='../images/taxi-map.jpg'></img>
+  <div class="container d-flex justify-content-center mt-5">
+
+    <div class="card text-center mb-5">
+
+      <div class="circle-image">
+        <img src="../images/profile-picture.png" width="50">
+      </div>
+
+      <span class="dot"></span>
+
+      <span class="name mb-1 fw-500">Driver name</span>
+      <small class="text-black-50">Car model</small>
+      <small class="text-black-50 font-weight-bold">J14-A-812</small>
+
+      <div class="rate bg-success py-3 text-white mt-3">
+        <h6 class="mb-0">Rate your driver</h6>
+        <div class="rating"> <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> <input type="radio" name="rating" value="3" id="3"><label
+            for="3">☆</label> <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
         </div>
-</div>
-</div>
-<div class="padded-top container">
-    <div class="row">
-        <div class="text-center">
-          <button type="button" class="btn btn-outline-danger btn-lg btn-block" onclick="window.location.replace('order-ride.html')">Order a ride</button>
-          <button type="button" class="btn btn-outline-danger btn-lg btn-block" onclick="window.location.replace('index.html')">Back to dashboard</button>
+        <div class="buttons px-4 mt-0">
+          <button class="btn btn-warning btn-block rating-submit" onclick="window.location.replace('pay.html')">Submit</button>
+        </div>
       </div>
     </div>
-</div>
-  </main>
-
+  </div>
   <footer class="text-muted fixed-bottom">
     <div class="container">
       <p class="float-right">
