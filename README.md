@@ -5,4 +5,4 @@ VoziMe! Is an idea of an application whose primary audience would
               to get a vehicle to pick us up. Feel free to login on the left and then ... <b>Enjoy!</b>
               
 # About The Code
-In this repository you can find just simple HTML code, a concept for the described web application. No real logic is implemented.
+In this repository you can find just simple HTML and CSS code, a concept for the described web application. No real logic is implemented.
