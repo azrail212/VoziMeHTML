@@ -4,5 +4,5 @@ VoziMe! Is an idea of an application whose primary audience would
               application. The goal is to make taxis as accessible as possible, so that we do not have to call several phone numbers
               to get a vehicle to pick us up. Feel free to login on the left and then ... <b>Enjoy!</b>
               
-# AboutTheCode
+# About The Code
 In this repository you can find just simple HTML code, a concept for the described web application. No real logic is implemented.
